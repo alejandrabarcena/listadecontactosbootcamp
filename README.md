@@ -2,21 +2,6 @@
 
 Aplicación moderna y profesional para la gestión de contactos, desarrollada con **React.js**, **React Router DOM** y **Context API**, que permite realizar operaciones CRUD completas: **Crear**, **Leer**, **Actualizar** y **Eliminar** contactos de manera eficiente, escalable y visualmente clara.
 
----
-
-## 📘 ¿JavaScript o TypeScript?
-
-El proyecto está implementado principalmente en **JavaScript**, pero fue generado con la plantilla **Vite + React + TypeScript**, lo que incluye archivos de configuración en TypeScript como:
-
-- `vite.config.ts`
-- `tsconfig.json`
-- `tsconfig.node.json`
-
-Aunque **no se utilizó tipado estricto ni archivos `.tsx`**, el entorno ya está listo para una futura migración a TypeScript si se desea.
-
-> ✅ *Esto no afecta el funcionamiento del proyecto. Es común en entornos modernos scaffolded con Vite.*
-
----
 
 ## ⚙️ Tecnologías utilizadas
 
@@ -26,7 +11,7 @@ Aunque **no se utilizó tipado estricto ni archivos `.tsx`**, el entorno ya est�
 - 🎨 CSS
 - 💡 HTML5
 - 🔧 JavaScript
-- 🧩 TypeScript *(solo configuración del entorno)*
+
 
 ---
 
@@ -65,5 +50,11 @@ La lógica del CRUD está centralizada utilizando **Context API**, lo que permit
 ---
 
 ## 🚀 Cómo ejecutar este proyecto localmente
+
+```bash
+git clone https://github.com/alejandrabarcena/listadecontactosbootcamp
+cd listadecontactosbootcamp
+npm install
+npm run dev
 
 `
