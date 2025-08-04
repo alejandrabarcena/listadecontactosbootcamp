@@ -1,43 +1,45 @@
-# 📒 Lista de Contactos usando React & Context API
+# 📒 Lista de Contactos con React & Context API
 
-Una aplicación profesional de gestión de contactos desarrollada con **React.js**, **React Router** y **Context API**, que permite realizar operaciones CRUD completas (Crear, Leer, Actualizar, Eliminar) de forma moderna, escalable y eficiente.
+Aplicación moderna y profesional para la gestión de contactos, desarrollada con **React.js**, **React Router DOM** y **Context API**, que permite realizar operaciones CRUD completas: **Crear**, **Leer**, **Actualizar** y **Eliminar** contactos de manera eficiente, escalable y visualmente clara.
+
+---
 
 ## 📘 ¿JavaScript o TypeScript?
 
-El proyecto está implementado mayoritariamente en **JavaScript**, pero fue generado con una plantilla de **Vite + React** que incluye por defecto archivos de configuración en **TypeScript**, como:
+El proyecto está implementado principalmente en **JavaScript**, pero fue generado con la plantilla **Vite + React + TypeScript**, lo que incluye archivos de configuración en TypeScript como:
 
 - `vite.config.ts`
 - `tsconfig.json`
 - `tsconfig.node.json`
 
-GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resumen de tecnologías. **No se usó tipado estricto ni archivos `.tsx`**, pero el entorno está preparado para una futura migración a TypeScript si se desea.
+Aunque **no se utilizó tipado estricto ni archivos `.tsx`**, el entorno ya está listo para una futura migración a TypeScript si se desea.
 
-> ✅ *Esto no afecta el funcionamiento del proyecto, y es común en proyectos modernos scaffolded por Vite.*
+> ✅ *Esto no afecta el funcionamiento del proyecto. Es común en entornos modernos scaffolded con Vite.*
 
-
+---
 
 ## ⚙️ Tecnologías utilizadas
 
 - ⚛️ React 18 con Hooks
-- 🎯 React Router DOM
-- 🌍 Context API para manejo de estado global
-- 🧪 HTML
+- 🌐 React Router DOM
+- 🧠 Context API para estado global
 - 🎨 CSS
-- 🧠 JavaScript
+- 💡 HTML5
+- 🔧 JavaScript
 - 🧩 TypeScript *(solo configuración del entorno)*
 
 ---
 
-## 🌐 Demo en vivo
+## 🌐 Demo en línea
 
-🔗 [Ver Deploy en Netlify](https://listasdecontactosbootcamprj.netlify.app/)  
-🔗 [Ver Deploy en Vercel](https://listadecontactosbootcamp-lskt.vercel.app/)
+- 🔗 [Deploy en Netlify](https://listasdecontactosbootcamprj.netlify.app/)
+- 🔗 [Deploy en Vercel](https://listadecontactosbootcamp-lskt.vercel.app/)
 
 ---
 
 ## 📸 Vista previa
 
-![Vista previa 1](https://github.com/PatsyBarcena/listasdecontactosbootcampRJ/blob/main/listadecontactosvistaprevia1.png)  
+![Vista previa 1](https://github.com/PatsyBarcena/listasdecontactosbootcampRJ/blob/main/listadecontactosvistaprevia1.png)
 ![Vista previa 2](https://github.com/PatsyBarcena/listasdecontactosbootcampRJ/blob/main/listadecontactosvistaprevia2.png)
 
 ---
@@ -45,24 +47,23 @@ GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resum
 ## ✨ Funcionalidades principales
 
 - ✅ **Crear** nuevos contactos
-- 🔍 **Leer** y visualizar una lista de contactos existentes
-- ✏️ **Actualizar** información de los contactos
-- 🗑️ **Eliminar** contactos con confirmación (modal emergente)
+- 🔍 **Leer** la lista de contactos existentes
+- ✏️ **Actualizar** información de contacto
+- 🗑️ **Eliminar** contactos con confirmación por modal
 - 🔄 Comunicación con API externa mediante `fetch`
 
 ---
 
-## 🧠 Estado global con Context API
+## 🧠 Manejo del estado global con Context API
 
-La lógica del CRUD está centralizada usando **Context API**, lo que permite:
+La lógica del CRUD está centralizada utilizando **Context API**, lo que permite:
 
-- Evitar prop drilling
-- Compartir estado y funciones entre vistas
-- Escalar la aplicación de manera limpia
+- Evitar el prop drilling
+- Compartir estado y funciones entre componentes
+- Escalar la aplicación de forma ordenada y limpia
+
+---
+
 ## 🚀 Cómo ejecutar este proyecto localmente
 
-```bash
-git clone https://github.com/alejandrabarcena/listadecontactosbootcamp
-cd listasdecontactosbootcamp
-npm install
-npm run dev
+`
